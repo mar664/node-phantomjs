@@ -5,7 +5,7 @@ USER root
 #=========
 # Phantomjs
 #=========
-ENV PHANTOM_JS_VERSION phantomjs-2.1.1-linux-x86_64
+ENV PHANTOM_JS_VERSION 2.1.1-linux-x86_64
 
 RUN apt-get update
 RUN apt-get install -y curl bzip2 libfreetype6 libfontconfig
