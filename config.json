@@ -2,12 +2,12 @@
   "capabilities": [
     {
       "browserName": "*phantomjs",
-      "maxInstances": 1,
+      "maxInstances": 3,
       "seleniumProtocol": "Selenium"
     },
     {
       "browserName": "phantomjs",
-      "maxInstances": 1,
+      "maxInstances": 3,
       "seleniumProtocol": "WebDriver"
     }
   ],
