@@ -13,9 +13,10 @@ RUN wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS.ta
 RUN tar xvjf phantomjs-$PHANTOMJS.tar.bz2
 RUN mv phantomjs-$PHANTOMJS /usr/local/share
 RUN ln -sf /usr/local/share/phantomjs-$PHANTOMJS/bin/phantomjs /usr/local/bin
+RUN chmod -R +x /usr/local/bin
 #========================
 # Selenium Configuration
 #========================
 COPY config.json /opt/selenium/config.json
 
-USER seluser
+USER root
