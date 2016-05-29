@@ -3,14 +3,12 @@
     {
       "browserName": "*phantomjs",
       "maxInstances": 1,
-      "seleniumProtocol": "Selenium",
-      "phantom.binary.path": "/phantomjs"
+      "seleniumProtocol": "Selenium"
     },
     {
       "browserName": "phantomjs",
       "maxInstances": 1,
-      "seleniumProtocol": "WebDriver",
-      "phantom.binary.path": "/phantomjs"
+      "seleniumProtocol": "WebDriver"
     }
   ],
   "configuration": {
