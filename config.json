@@ -16,6 +16,9 @@
     "maxSession": 1,
     "port": 5555,
     "register": true,
-    "registerCycle": 5000
+    "registerCycle": 5000,
+    "browserTimeout" : 60000,
+    "cleanUpCycle" : 5000,
+    "timeout" : 59000
   }
 }
